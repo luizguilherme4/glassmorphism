@@ -1,6 +1,6 @@
 function handleSubmit() {
-    email = document.querySelector("input").value
-    feedback = document.querySelector("textarea").value
+    const email = document.querySelector("input").value
+    const feedback = document.querySelector("textarea").value
 
     if (email === "") {
         window.alert("Preencha o campo email")
