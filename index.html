@@ -6,19 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Feedback</title>
 </head>
 
-<body class="gradient-background">
-    <div class="eclipse-1"></div>
-    <div class="eclipse-2"></div>
-    <div class="card"></div>
-    <h1></h1>
-    <form>
-        <input type="text" class="retangulo-1">
-        <input type="text" class="retangulo-2">
-        <textarea id="retangulo-3" name="retangulo-3" rows="4" cols="50"></textarea>
-    </form>
+<body>
+    <div id="circle-1"></div>
+    <div id="circle-2"></div>
+    <div class="container">
+        <form onsubmit="handleSubmit()">
+            <div id="title">
+                <h1>FEEDBACK</h1>
+                <img src="/images/icon-feedback.svg" alt="">
+            </div>
+
+            <input type="email" placeholder="email">
+            <textarea cols="30" rows="10" placeholder="seu feedback"></textarea>
+
+            <button type="submit">ENVIAR FEEDBACK</button>
+        </form>
+    </div>
 </body>
 
+<script src="index.js"></script>
 </html>
